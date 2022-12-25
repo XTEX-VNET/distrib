@@ -5,8 +5,24 @@ Lint Report:
     other: "fd00:443a:ef14:2:1::/80"
 [31mERROR[39m: [36mIP subnets conflict[39m
     schema: "ROUTE6"
+    net: "fd00:443a:ef14:1::1/128"
+    other: "fd00:443a:ef14:3:1::/80"
+[31mERROR[39m: [36mIP subnets conflict[39m
+    schema: "ROUTE6"
     net: "fd00:443a:ef14:2:1::/80"
     other: "fd00:443a:ef14:1::1/128"
+[31mERROR[39m: [36mIP subnets conflict[39m
+    schema: "ROUTE6"
+    net: "fd00:443a:ef14:2:1::/80"
+    other: "fd00:443a:ef14:3:1::/80"
+[31mERROR[39m: [36mIP subnets conflict[39m
+    schema: "ROUTE6"
+    net: "fd00:443a:ef14:3:1::/80"
+    other: "fd00:443a:ef14:1::1/128"
+[31mERROR[39m: [36mIP subnets conflict[39m
+    schema: "ROUTE6"
+    net: "fd00:443a:ef14:3:1::/80"
+    other: "fd00:443a:ef14:2:1::/80"
 -e 
 
 
